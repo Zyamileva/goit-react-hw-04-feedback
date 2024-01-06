@@ -19,4 +19,11 @@ export const Button = styled.button`
   font-weight: 500;
   cursor: pointer;
   box-shadow: var(--shadow);
+
+  box-shadow: 5px 5px 5px grey;
+  transition: all 250ms ease-in-out;
+
+  :hover {
+    background-color: #a9a9a9;
+  }
 `;
